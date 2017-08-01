@@ -1,0 +1,293 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"schoo",
+				"schoolTeacher"
+			],
+			[
+				"SchoolDi",
+				"SchoolDivisionAdministratorController"
+			],
+			[
+				"schooldivisionadmini",
+				"schooldivisionadministrator"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "vu",
+		"selected_items":
+		[
+			[
+				"vu",
+				"Set Syntax: Vue Component"
+			],
+			[
+				"",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/www/myblog"
+	],
+	"file_history":
+	[
+		"/C/www/myblog/_config.yml",
+		"/C/www/myblog/Gemfile",
+		"/C/Users/Josh/Downloads/Steps_in_Needs_analysis.ppsx",
+		"/C/xampp/htdocs/subby/app/School.php",
+		"/C/xampp/htdocs/subby/app/User.php",
+		"/C/xampp/htdocs/subby/app/SchoolDivision.php",
+		"/C/xampp/htdocs/subby/app/SubstituteTeacher.php",
+		"/C/xampp/htdocs/subby/database/seeds/SchoolDivisionSubstitueTeacherTableSeeder.php",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_26_045434_create_schooldivision_substituteteacher_table.php",
+		"/C/xampp/htdocs/subby/database/seeds/SchoolDivisionTableSeeder.php",
+		"/C/xampp/htdocs/subby/database/seeds/SchoolDivisionAdministratorTableSeeder.php",
+		"/C/xampp/htdocs/subby/database/seeds/CountriesTableSeeder.php",
+		"/C/xampp/htdocs/subby/database/seeds/PermissionsRolesTableSeeder.php",
+		"/C/xampp/htdocs/subby/database/seeds/RolesUsersTableSeeder.php",
+		"/C/xampp/htdocs/subby/database/seeds/DatabaseSeeder.php",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_02_153149_role_user.php",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_06_135137_create_substitute_teachers_table.php",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_05_230010_create_school_teachers_table.php",
+		"/C/xampp/htdocs/subby/app/SchoolTeacher.php",
+		"/C/xampp/htdocs/subby/app/SchoolDivisionAdministrator.php",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_04_170915_create_school_divisions_table.php",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_05_201556_create_schools_table.php",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_05_223610_create_school_administrators_table.php",
+		"/C/xampp/htdocs/subby/webpack.mix.js",
+		"/C/xampp/htdocs/subby/resources/assets/sass/app.scss",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_05_181915_create_school_division_administrators_table.php",
+		"/C/xampp/htdocs/subby/database/seeds/TeacherTableSeeder.php",
+		"/C/xampp/htdocs/subby/database/seeds/SubstituteTableSeeder.php",
+		"/C/xampp/htdocs/subby/resources/views/layouts/master.blade.php",
+		"/C/xampp/htdocs/subby/tests/Feature/SubDayTest.php",
+		"/C/xampp/htdocs/subby/tests/Feature/SchoolTest.php",
+		"/C/xampp/htdocs/subby/app/Http/Controllers/SchoolController.php",
+		"/C/xampp/htdocs/subby/tests/Feature/SchoolTeacherTest.php",
+		"/C/xampp/htdocs/subby/database/factories/ModelFactory.php",
+		"/C/xampp/htdocs/subby/database/seeds/ProvincesTableSeeder.php",
+		"/C/xampp/htdocs/subby/database/seeds/SchoolTableSeeder.php",
+		"/C/xampp/htdocs/subby/tests/Feature/SubstituteTeacherTest.php",
+		"/C/xampp/htdocs/subby/database/seeds/UsersTableSeeder.php",
+		"/C/xampp/htdocs/subby/database/seeds/PrincipalTableSeeder.php",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_05_212820_create_principals_table.php",
+		"/C/xampp/htdocs/subby/database/seeds/SchoolAdministratorTableSeeder.php",
+		"/C/xampp/htdocs/subby/resources/assets/sass/_dashboard.scss",
+		"/C/xampp/htdocs/subby/database/seeds/PermissionsTableSeeder.php",
+		"/C/xampp/htdocs/subby/database/seeds/RolesTableSeeder.php",
+		"/C/xampp/htdocs/subby/vendor/composer/installed.json",
+		"/C/xampp/htdocs/subby/app/Http/Controllers/SchoolTeacherController.php",
+		"/C/xampp/htdocs/subby/tests/Feature/SchoolDivisionTest.php",
+		"/F/subby/database/seeds/SubjecttimetablesTableSeeder.php",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_08_131315_create_sub_days_table.php",
+		"/F/subby_jwt/app/Subjecttimetable.php",
+		"/F/subby_jwt/app/Http/Controllers/HomeController.php",
+		"/F/subby/app/Subjecttimetable.php",
+		"/F/subby/database/seeds/SubjecttasksTableSeeder.php",
+		"/F/subby/database/seeds/SchooldaySubjecttimetableTableSeeder.php",
+		"/F/subby/database/factories/ModelFactory.php",
+		"/F/subby/database/migrations/2017_02_24_042639_create_schooldays_table.php",
+		"/F/subby/database/migrations/2017_02_24_044217_create_subjecttimetables_table.php",
+		"/F/subby/database/migrations/2017_02_24_052533_create_schoolday_subjecttimetable_table.php",
+		"/C/xampp/htdocs/subby/app/Http/Controllers/PrincipalController.php",
+		"/C/xampp/htdocs/subby/tests/Feature/SchoolAdministratorTest.php",
+		"/C/xampp/htdocs/subby/tests/Feature/PrincipalTest.php",
+		"/C/xampp/htdocs/subby/tests/Feature/SchoolDivisionAdministratorTest.php",
+		"/C/xampp/htdocs/subby/app/Http/Controllers/SchoolAdministratorController.php",
+		"/C/xampp/htdocs/subby/app/Http/Controllers/SchoolDivisionAdministratorController.php",
+		"/C/xampp/htdocs/subby/app/Principal.php",
+		"/C/xampp/htdocs/subby/app/Http/Controllers/SchoolDivisionController.php",
+		"/C/xampp/htdocs/subby/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php",
+		"/C/xampp/htdocs/subby/vendor/laravel/framework/src/Illuminate/Auth/Events/Registered.php",
+		"/C/xampp/htdocs/subby/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php",
+		"/C/xampp/htdocs/subby/app/Http/Controllers/Auth/RegisterController.php",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_04_164932_create_provinces_table.php",
+		"/C/xampp/htdocs/subby/tests/Feature/PermissionResourceTest.php",
+		"/C/xampp/htdocs/subby/app/Http/Controllers/PermissionController.php",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_04_164531_create_countries_table.php",
+		"/C/xampp/htdocs/subby/app/Province.php",
+		"/C/xampp/htdocs/subby/app/Country.php",
+		"/C/xampp/htdocs/subby/app/Role.php",
+		"/C/xampp/htdocs/subby/tests/Feature/AuthenticateTest.php",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_02_161000_permission_role.php",
+		"/C/xampp/htdocs/subby/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/subby/tests/Unit/UserTest.php",
+		"/C/xampp/htdocs/subby/app/Permission.php",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_02_152830_create_roles_table.php",
+		"/C/xampp/htdocs/subby/tests/Unit/RoleTest.php",
+		"/C/xampp/htdocs/subby/tests/TestCase.php",
+		"/C/xampp/htdocs/subby/.env",
+		"/C/xampp/htdocs/subby/config/database.php",
+		"/C/xampp/htdocs/subby/phpunit.xml",
+		"/F/subby_jwt/resources/assets/sass/_variables.scss",
+		"/F/subby/resources/assets/sass/_variables.scss",
+		"/F/subby/webpack.mix.js",
+		"/C/xampp/htdocs/subby/app/Http/Controllers/Auth/LoginController.php",
+		"/C/xampp/htdocs/subby/resources/views/dashboard.blade.php",
+		"/C/xampp/htdocs/subby/database/migrations/2017_07_02_160830_create_permissions_table.php",
+		"/C/xampp/htdocs/subby/app/Providers/AppServiceProvider.php",
+		"/F/subby/database/seeds/DatabaseSeeder.php",
+		"/F/subby/database/seeds/UsersTableSeeder.php",
+		"/F/subby/app/Providers/AppServiceProvider.php",
+		"/F/subby_jwt/.env",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "myblogjekyll.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"vendor\\composer\\installed.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 341.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
