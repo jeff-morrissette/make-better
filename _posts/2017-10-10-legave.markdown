@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Legave - Lego favorites"
+date:   2017-10-10 10:30:30 -0500
+categories: Legave
+author: "jeff morrissette"
+excerpt_separator: <!-- more -->
+tags: [React, MongoDB, ExpressJS]
+---
+This is Legave, a fictional lego favoriter, and this is how I built it.<!-- more -->
+## URL
+* [Legave][legave-url]
+
+## Stack
+* ExpressJS
+* MongoDB
+* Mongoose
+* React/Redux
+* Heroku
+
+## Process
+
+I knew I just wanted a simple image with "Like" and "Dislike" buttons and a way to view results. First thing I did was create two components, one for the image and buttons and another for the results.
+
+Then came the Redux side of things, I created the actions, then the reducers and wired them up.
+
+Next came MongoDB and Mongoose and a Express Server for me to make an API request I followed along with this website [Express Tutorial: The Local Library website](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website) and actually had it up and running with Heroku and mLab in no time.
+
+It really was easy I knew the schema I needed just include a textfield for images and two columns for number of dislikes and likes.
+
+## Hiccups
+
+Hooking everything up and making the first API request and then BAM, CORS error, luckily there is an npm package that was installed and solved that issue.
+
+Rendering initial values with Redux. This was a pain as the page wants to load first and then make the API request. But the the page won't load with out the API Data, it was the chicken and egg problem. Solved this with setting initial values in the Reducer (setting a variable to false), this would show a skeleton of sorts at first. Once the API Data was retrieved the skeleton was replaced with actual Data.
+
+[legave-url]: https://fast-everglades-43599.herokuapp.com/index.html

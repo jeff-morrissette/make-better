@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I love to solve problems with code.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I believe in a Test Driven Development approach and maintaining easy to read code (so I know what I am trying to say 6 months from now).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+My favorite backend code to write is PHP (I mean really, who isn't) and am fond with using Laravel as a PHP framework and using React as a Front End framework (React: It's what's in style at the moment!)

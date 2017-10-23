@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Wansit - Winnipeg Transit App"
+date:   2017-10-22 10:30:30 -0500
+categories: Wansit
+author: "jeff morrissette"
+excerpt_separator: <!-- more -->
+tags: [React]
+---
+This is Wansit, a React version of the Winnipeg Transit API.<!-- more -->
+## URL
+* [Wansit][wansit-url]
+
+## Stack
+* React
+* Redux
+    * Redux Form
+    * Redux Thunk
+* Heroku
+
+## Reasons why
+
+Winnipeg Transit has a free API you can use that plots all the bus routes in free time and I wanted to see what I could do with it, plus Winnipeg Transits current site...isn't the most pretty site to look at.
+
+## Process
+
+Played around with Winnipeg Transit's API at first just to see what I could do. There are actually a couple of things you can do like get a route number, find a time table, find a location or destination and the one I chose to work on which is a route planner. Which is basically setting an origin, destination and then setting the date and time.
+
+After figuring out what I wanted to do and then figuring out the API call I needed to make I set up my React app with Redux. I knew I wanted several components, one for setting the origin, one for the destination, one for the date/time and finally one last one for the results.
+
+After the Components were set up I wired up the Actions and Reducers for Redux and after being able to get results for the origin and destination fields I was able to fetch the data for round trip and display the results
+
+## Hiccups
+
+Getting the results for the origin and destination fields, the current Winnipeg Transit has a type-ahead auto search and I wanted that as well (Plus they had and API end point setup for this). This took some researching and ended up with react-select. Even then this took some head bashing to get it working.
+
+Next was finding a date dropdown, this took some searching and am currently looking at react-widgets, wasn't really able to get the dropdown working so just decided on a text field with placeholder text on how the date should look.
+
+Redux-form was a pain at filling out select fields and radio buttons, when one is used to just writing out what I want in plain HTML. It feels different when you are forced a different way with Redux-form, but after working with it, I could initialize the fields in the select and have a radio button checked.
+
+The final roundtrip json results were not repeatable, ie: they had some results that were unique. So the results returned give you the origin address and wether you had to walk, ride or transfer. I had to strip out the very first result (origin) because it was different from the rest, the rest had a common pattern to them. Then I had to use a switch statement in order to return results based on the next leg of the journey which included "walk", "ride" or "transfer".
+
+[wansit-url]: https://wansit.herokuapp.com/
